@@ -151,7 +151,78 @@ function getInitialState() {
   };
 }
 
-function update(state, inputs, dt) {}
+function canGridFitShape(grid, shape, shapeX, shapeY) {
+  return shape.every((row, i) => {
+    const gridY = shapeY + i;
+    return row.every((isSolid, j) => {
+      if (!isSolid) {
+        return true;
+      }
+      //  below the floor - collision
+      if (gridY >= grid.length) {
+        return false;
+      }
+      // outside the walls
+      const gridX = shapeX + j;
+      if (gridX < 0 || gridX >= grid[0].length) {
+        return false;
+      }
+      // finally, check if the place is free
+      return grid[gridY][gridX] === BLOCK_EMPTY;
+    });
+  });
+}
+
+function moveCurrentPiece(grid, currentPiece, moveX, moveY) {
+  const { shape, position } = currentPiece;
+  const { x, y } = position;
+
+  const canMove = canGridFitShape(grid, shape, x + moveX, y + moveY);
+
+  if (canMove) {
+    position.x += moveX;
+    position.y += moveY;
+  }
+
+  return canMove;
+}
+
+function updateCurrentPiece(state, inputs, dt) {
+  const { grid, currentPiece } = state;
+
+  if (inputs.moveLeft) {
+    // move left
+    moveCurrentPiece(grid, currentPiece, -1, 0);
+  }
+  if (inputs.moveRight) {
+    // move right
+    moveCurrentPiece(grid, currentPiece, 1, 0);
+  }
+  if (inputs.moveDown) {
+    // move down
+    moveCurrentPiece(grid, currentPiece, 0, 1);
+  }
+  if (inputs.rotate) {
+    // rotate
+  }
+  if (inputs.hardDrop) {
+    // hard drop
+  }
+}
+
+function updateGravity(state, dt) {}
+
+function update(state, inputs, dt) {
+  if (state.isGameOver) {
+    if (inputs.restart) {
+      // restart the game
+    }
+  } else {
+    // main gameplay
+    updateCurrentPiece(state, inputs, dt);
+    updateGravity(state, dt);
+  }
+}
 
 function drawBlock(ctx, color, x, y) {
   ctx.fillStyle = color;
@@ -226,10 +297,27 @@ function render(ctx, state) {
   }
 }
 
+function startCollectingInputs(inputs) {
+  function handleKeyEvent(event, inputValue) {
+    if (event.repeat) {
+      return;
+    }
+    const inputType = KEY_TO_INPUT_TYPE[event.key];
+    if (inputType) {
+      inputs[inputType] = inputValue;
+    }
+  }
+
+  window.addEventListener("keydown", (event) => handleKeyEvent(event, true));
+  window.addEventListener("keyup", (event) => handleKeyEvent(event, false));
+}
+
 function main() {
   const ctx = initCanvas();
   const state = getInitialState();
   const inputs = {};
+
+  startCollectingInputs(inputs);
 
   let previousTime = performance.now();
 
