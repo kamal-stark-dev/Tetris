@@ -1,6 +1,6 @@
 # Tetris
 
-Tetris (classic game) made with JavaScript.
+Tetris (classic game) made in Python and JavaScript both (seprately).
 
 ### Game Elements
 
