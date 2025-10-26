@@ -1,0 +1,555 @@
+[
+    {
+        "label": "pygame",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pygame",
+        "description": "pygame",
+        "detail": "pygame",
+        "documentation": {}
+    },
+    {
+        "label": "GameState",
+        "importPath": "game_state",
+        "description": "game_state",
+        "isExtraImport": true,
+        "detail": "game_state",
+        "documentation": {}
+    },
+    {
+        "label": "GameState",
+        "importPath": "game_state",
+        "description": "game_state",
+        "isExtraImport": true,
+        "detail": "game_state",
+        "documentation": {}
+    },
+    {
+        "label": "Grid",
+        "importPath": "grid",
+        "description": "grid",
+        "isExtraImport": true,
+        "detail": "grid",
+        "documentation": {}
+    },
+    {
+        "label": "Grid",
+        "importPath": "grid",
+        "description": "grid",
+        "isExtraImport": true,
+        "detail": "grid",
+        "documentation": {}
+    },
+    {
+        "label": "EMPTY_BLOCK",
+        "importPath": "grid",
+        "description": "grid",
+        "isExtraImport": true,
+        "detail": "grid",
+        "documentation": {}
+    },
+    {
+        "label": "Piece",
+        "importPath": "piece",
+        "description": "piece",
+        "isExtraImport": true,
+        "detail": "piece",
+        "documentation": {}
+    },
+    {
+        "label": "Piece",
+        "importPath": "piece",
+        "description": "piece",
+        "isExtraImport": true,
+        "detail": "piece",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "SHAPES",
+        "importPath": "shapes",
+        "description": "shapes",
+        "isExtraImport": true,
+        "detail": "shapes",
+        "documentation": {}
+    },
+    {
+        "label": "SHAPES",
+        "importPath": "shapes",
+        "description": "shapes",
+        "isExtraImport": true,
+        "detail": "shapes",
+        "documentation": {}
+    },
+    {
+        "label": "SHAPES",
+        "importPath": "shapes",
+        "description": "shapes",
+        "isExtraImport": true,
+        "detail": "shapes",
+        "documentation": {}
+    },
+    {
+        "label": "Gravity",
+        "importPath": "gravity",
+        "description": "gravity",
+        "isExtraImport": true,
+        "detail": "gravity",
+        "documentation": {}
+    },
+    {
+        "label": "Gravity",
+        "importPath": "gravity",
+        "description": "gravity",
+        "isExtraImport": true,
+        "detail": "gravity",
+        "documentation": {}
+    },
+    {
+        "label": "GameView",
+        "importPath": "game_view",
+        "description": "game_view",
+        "isExtraImport": true,
+        "detail": "game_view",
+        "documentation": {}
+    },
+    {
+        "label": "ALPHA_GAME_OVER_OVERLAY",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "BLOCK_SIZE",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "COLOR_BACKGROUND",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "COLOR_EMPTY_BLOCK",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "COLOR_FONT",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "COLOR_GAME_OVER_OVERLAY",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "COLOR_SIDEBAR_BORDER",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "GRID_COLS",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "GRID_ROWS",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "SHAPE_COLORS",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "SIDEBAR_BORDER",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "SIDEBAR_WIDTH_BLOCKS",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "GRAVITY_SPEED",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "GRAVITY_ACCELERATION",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "GRAVITY_THRESHOLD",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "GRID_ROWS",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "GRID_COLS",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "GRID_COLS",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "Game",
+        "importPath": "game",
+        "description": "game",
+        "isExtraImport": true,
+        "detail": "game",
+        "documentation": {}
+    },
+    {
+        "label": "SHAPE_COLORS",
+        "kind": 5,
+        "importPath": "python-tetris.config",
+        "description": "python-tetris.config",
+        "peekOfCode": "SHAPE_COLORS = [\n    pygame.Color(\"#00BCD4\"),\n    pygame.Color(\"#485FE5\"),\n    pygame.Color(\"#FF9800\"),\n    pygame.Color(\"#FFEB3B\"),\n    pygame.Color(\"#4CAF50\"),\n    pygame.Color(\"#A629BC\"),\n    pygame.Color(\"#F44336\")\n]\nCOLOR_SIDEBAR_BORDER = pygame.Color(\"#DDDDDD\")",
+        "detail": "python-tetris.config",
+        "documentation": {}
+    },
+    {
+        "label": "COLOR_SIDEBAR_BORDER",
+        "kind": 5,
+        "importPath": "python-tetris.config",
+        "description": "python-tetris.config",
+        "peekOfCode": "COLOR_SIDEBAR_BORDER = pygame.Color(\"#DDDDDD\")\nCOLOR_EMPTY_BLOCK = pygame.Color(\"#343434\")\nCOLOR_FONT = pygame.Color(\"#FFFFFF\")\nCOLOR_BACKGROUND = pygame.Color(\"#292929\")\nCOLOR_GAME_OVER_OVERLAY = pygame.Color(\"#000000\")\nALPHA_GAME_OVER_OVERLAY = 200\nGRID_ROWS = 20\nGRID_COLS = 10\nGRAVITY_SPEED = 1\nGRAVITY_ACCELERATION = 0.00001",
+        "detail": "python-tetris.config",
+        "documentation": {}
+    },
+    {
+        "label": "COLOR_EMPTY_BLOCK",
+        "kind": 5,
+        "importPath": "python-tetris.config",
+        "description": "python-tetris.config",
+        "peekOfCode": "COLOR_EMPTY_BLOCK = pygame.Color(\"#343434\")\nCOLOR_FONT = pygame.Color(\"#FFFFFF\")\nCOLOR_BACKGROUND = pygame.Color(\"#292929\")\nCOLOR_GAME_OVER_OVERLAY = pygame.Color(\"#000000\")\nALPHA_GAME_OVER_OVERLAY = 200\nGRID_ROWS = 20\nGRID_COLS = 10\nGRAVITY_SPEED = 1\nGRAVITY_ACCELERATION = 0.00001\nGRAVITY_THRESHOLD = 1000",
+        "detail": "python-tetris.config",
+        "documentation": {}
+    },
+    {
+        "label": "COLOR_FONT",
+        "kind": 5,
+        "importPath": "python-tetris.config",
+        "description": "python-tetris.config",
+        "peekOfCode": "COLOR_FONT = pygame.Color(\"#FFFFFF\")\nCOLOR_BACKGROUND = pygame.Color(\"#292929\")\nCOLOR_GAME_OVER_OVERLAY = pygame.Color(\"#000000\")\nALPHA_GAME_OVER_OVERLAY = 200\nGRID_ROWS = 20\nGRID_COLS = 10\nGRAVITY_SPEED = 1\nGRAVITY_ACCELERATION = 0.00001\nGRAVITY_THRESHOLD = 1000\nBLOCK_SIZE = 36",
+        "detail": "python-tetris.config",
+        "documentation": {}
+    },
+    {
+        "label": "COLOR_BACKGROUND",
+        "kind": 5,
+        "importPath": "python-tetris.config",
+        "description": "python-tetris.config",
+        "peekOfCode": "COLOR_BACKGROUND = pygame.Color(\"#292929\")\nCOLOR_GAME_OVER_OVERLAY = pygame.Color(\"#000000\")\nALPHA_GAME_OVER_OVERLAY = 200\nGRID_ROWS = 20\nGRID_COLS = 10\nGRAVITY_SPEED = 1\nGRAVITY_ACCELERATION = 0.00001\nGRAVITY_THRESHOLD = 1000\nBLOCK_SIZE = 36\nSIDEBAR_BORDER = 20",
+        "detail": "python-tetris.config",
+        "documentation": {}
+    },
+    {
+        "label": "COLOR_GAME_OVER_OVERLAY",
+        "kind": 5,
+        "importPath": "python-tetris.config",
+        "description": "python-tetris.config",
+        "peekOfCode": "COLOR_GAME_OVER_OVERLAY = pygame.Color(\"#000000\")\nALPHA_GAME_OVER_OVERLAY = 200\nGRID_ROWS = 20\nGRID_COLS = 10\nGRAVITY_SPEED = 1\nGRAVITY_ACCELERATION = 0.00001\nGRAVITY_THRESHOLD = 1000\nBLOCK_SIZE = 36\nSIDEBAR_BORDER = 20\nSIDEBAR_WIDTH_BLOCKS = 6",
+        "detail": "python-tetris.config",
+        "documentation": {}
+    },
+    {
+        "label": "ALPHA_GAME_OVER_OVERLAY",
+        "kind": 5,
+        "importPath": "python-tetris.config",
+        "description": "python-tetris.config",
+        "peekOfCode": "ALPHA_GAME_OVER_OVERLAY = 200\nGRID_ROWS = 20\nGRID_COLS = 10\nGRAVITY_SPEED = 1\nGRAVITY_ACCELERATION = 0.00001\nGRAVITY_THRESHOLD = 1000\nBLOCK_SIZE = 36\nSIDEBAR_BORDER = 20\nSIDEBAR_WIDTH_BLOCKS = 6",
+        "detail": "python-tetris.config",
+        "documentation": {}
+    },
+    {
+        "label": "GRID_ROWS",
+        "kind": 5,
+        "importPath": "python-tetris.config",
+        "description": "python-tetris.config",
+        "peekOfCode": "GRID_ROWS = 20\nGRID_COLS = 10\nGRAVITY_SPEED = 1\nGRAVITY_ACCELERATION = 0.00001\nGRAVITY_THRESHOLD = 1000\nBLOCK_SIZE = 36\nSIDEBAR_BORDER = 20\nSIDEBAR_WIDTH_BLOCKS = 6",
+        "detail": "python-tetris.config",
+        "documentation": {}
+    },
+    {
+        "label": "GRID_COLS",
+        "kind": 5,
+        "importPath": "python-tetris.config",
+        "description": "python-tetris.config",
+        "peekOfCode": "GRID_COLS = 10\nGRAVITY_SPEED = 1\nGRAVITY_ACCELERATION = 0.00001\nGRAVITY_THRESHOLD = 1000\nBLOCK_SIZE = 36\nSIDEBAR_BORDER = 20\nSIDEBAR_WIDTH_BLOCKS = 6",
+        "detail": "python-tetris.config",
+        "documentation": {}
+    },
+    {
+        "label": "GRAVITY_SPEED",
+        "kind": 5,
+        "importPath": "python-tetris.config",
+        "description": "python-tetris.config",
+        "peekOfCode": "GRAVITY_SPEED = 1\nGRAVITY_ACCELERATION = 0.00001\nGRAVITY_THRESHOLD = 1000\nBLOCK_SIZE = 36\nSIDEBAR_BORDER = 20\nSIDEBAR_WIDTH_BLOCKS = 6",
+        "detail": "python-tetris.config",
+        "documentation": {}
+    },
+    {
+        "label": "GRAVITY_ACCELERATION",
+        "kind": 5,
+        "importPath": "python-tetris.config",
+        "description": "python-tetris.config",
+        "peekOfCode": "GRAVITY_ACCELERATION = 0.00001\nGRAVITY_THRESHOLD = 1000\nBLOCK_SIZE = 36\nSIDEBAR_BORDER = 20\nSIDEBAR_WIDTH_BLOCKS = 6",
+        "detail": "python-tetris.config",
+        "documentation": {}
+    },
+    {
+        "label": "GRAVITY_THRESHOLD",
+        "kind": 5,
+        "importPath": "python-tetris.config",
+        "description": "python-tetris.config",
+        "peekOfCode": "GRAVITY_THRESHOLD = 1000\nBLOCK_SIZE = 36\nSIDEBAR_BORDER = 20\nSIDEBAR_WIDTH_BLOCKS = 6",
+        "detail": "python-tetris.config",
+        "documentation": {}
+    },
+    {
+        "label": "BLOCK_SIZE",
+        "kind": 5,
+        "importPath": "python-tetris.config",
+        "description": "python-tetris.config",
+        "peekOfCode": "BLOCK_SIZE = 36\nSIDEBAR_BORDER = 20\nSIDEBAR_WIDTH_BLOCKS = 6",
+        "detail": "python-tetris.config",
+        "documentation": {}
+    },
+    {
+        "label": "SIDEBAR_BORDER",
+        "kind": 5,
+        "importPath": "python-tetris.config",
+        "description": "python-tetris.config",
+        "peekOfCode": "SIDEBAR_BORDER = 20\nSIDEBAR_WIDTH_BLOCKS = 6",
+        "detail": "python-tetris.config",
+        "documentation": {}
+    },
+    {
+        "label": "SIDEBAR_WIDTH_BLOCKS",
+        "kind": 5,
+        "importPath": "python-tetris.config",
+        "description": "python-tetris.config",
+        "peekOfCode": "SIDEBAR_WIDTH_BLOCKS = 6",
+        "detail": "python-tetris.config",
+        "documentation": {}
+    },
+    {
+        "label": "Game",
+        "kind": 6,
+        "importPath": "python-tetris.game",
+        "description": "python-tetris.game",
+        "peekOfCode": "class Game:\n    def __init__(self):\n        self.state = self.get_initial_state()\n        self.view = GameView()\n    def get_random_shape_id(self):\n        return random.randint(0, len(SHAPES) - 1)\n    def get_initial_state(self):\n        return GameState(\n            grid=Grid(),\n            piece=Piece(self.get_random_shape_id()),",
+        "detail": "python-tetris.game",
+        "documentation": {}
+    },
+    {
+        "label": "GameState",
+        "kind": 6,
+        "importPath": "python-tetris.game_state",
+        "description": "python-tetris.game_state",
+        "peekOfCode": "class GameState:\n    def __init__(self, grid: Grid, piece: Piece, gravity: Gravity, next_shape_id: int):\n        self.is_game_over = False\n        self.score = 0\n        self.grid = grid\n        self.piece = piece\n        self.gravity = gravity\n        self.next_shape_id = next_shape_id",
+        "detail": "python-tetris.game_state",
+        "documentation": {}
+    },
+    {
+        "label": "GameView",
+        "kind": 6,
+        "importPath": "python-tetris.game_view",
+        "description": "python-tetris.game_view",
+        "peekOfCode": "class GameView:\n    def init_display(self):\n        self.screen = pygame.display.set_mode((GAME_WIDTH, GAME_HEIGHT))\n        self.font = pygame.font.SysFont(\"Monaco\", 32, bold=True)\n    def draw_block(self, color, x, y):\n        self.screen.fill(color, (x, y, BLOCK_SIZE - 1, BLOCK_SIZE - 1))\n    def draw_shape(self, shape, shape_id, x, y):\n        for i, row in enumerate(shape):\n            for j, is_solid in enumerate(row):\n                if is_solid:",
+        "detail": "python-tetris.game_view",
+        "documentation": {}
+    },
+    {
+        "label": "GRID_WIDTH",
+        "kind": 5,
+        "importPath": "python-tetris.game_view",
+        "description": "python-tetris.game_view",
+        "peekOfCode": "GRID_WIDTH = GRID_COLS * BLOCK_SIZE\nGRID_HEIGHT = GRID_ROWS * BLOCK_SIZE\nSIDEBAR_WIDTH = SIDEBAR_WIDTH_BLOCKS * BLOCK_SIZE\nSIDEBAR_CONTEXT_X = GRID_WIDTH + SIDEBAR_BORDER + BLOCK_SIZE\nSIDEBAR_CONTEXT_Y = BLOCK_SIZE\nGAME_WIDTH = GRID_WIDTH + SIDEBAR_BORDER + SIDEBAR_WIDTH\nGAME_HEIGHT = GRID_HEIGHT\nclass GameView:\n    def init_display(self):\n        self.screen = pygame.display.set_mode((GAME_WIDTH, GAME_HEIGHT))",
+        "detail": "python-tetris.game_view",
+        "documentation": {}
+    },
+    {
+        "label": "GRID_HEIGHT",
+        "kind": 5,
+        "importPath": "python-tetris.game_view",
+        "description": "python-tetris.game_view",
+        "peekOfCode": "GRID_HEIGHT = GRID_ROWS * BLOCK_SIZE\nSIDEBAR_WIDTH = SIDEBAR_WIDTH_BLOCKS * BLOCK_SIZE\nSIDEBAR_CONTEXT_X = GRID_WIDTH + SIDEBAR_BORDER + BLOCK_SIZE\nSIDEBAR_CONTEXT_Y = BLOCK_SIZE\nGAME_WIDTH = GRID_WIDTH + SIDEBAR_BORDER + SIDEBAR_WIDTH\nGAME_HEIGHT = GRID_HEIGHT\nclass GameView:\n    def init_display(self):\n        self.screen = pygame.display.set_mode((GAME_WIDTH, GAME_HEIGHT))\n        self.font = pygame.font.SysFont(\"Monaco\", 32, bold=True)",
+        "detail": "python-tetris.game_view",
+        "documentation": {}
+    },
+    {
+        "label": "SIDEBAR_WIDTH",
+        "kind": 5,
+        "importPath": "python-tetris.game_view",
+        "description": "python-tetris.game_view",
+        "peekOfCode": "SIDEBAR_WIDTH = SIDEBAR_WIDTH_BLOCKS * BLOCK_SIZE\nSIDEBAR_CONTEXT_X = GRID_WIDTH + SIDEBAR_BORDER + BLOCK_SIZE\nSIDEBAR_CONTEXT_Y = BLOCK_SIZE\nGAME_WIDTH = GRID_WIDTH + SIDEBAR_BORDER + SIDEBAR_WIDTH\nGAME_HEIGHT = GRID_HEIGHT\nclass GameView:\n    def init_display(self):\n        self.screen = pygame.display.set_mode((GAME_WIDTH, GAME_HEIGHT))\n        self.font = pygame.font.SysFont(\"Monaco\", 32, bold=True)\n    def draw_block(self, color, x, y):",
+        "detail": "python-tetris.game_view",
+        "documentation": {}
+    },
+    {
+        "label": "SIDEBAR_CONTEXT_X",
+        "kind": 5,
+        "importPath": "python-tetris.game_view",
+        "description": "python-tetris.game_view",
+        "peekOfCode": "SIDEBAR_CONTEXT_X = GRID_WIDTH + SIDEBAR_BORDER + BLOCK_SIZE\nSIDEBAR_CONTEXT_Y = BLOCK_SIZE\nGAME_WIDTH = GRID_WIDTH + SIDEBAR_BORDER + SIDEBAR_WIDTH\nGAME_HEIGHT = GRID_HEIGHT\nclass GameView:\n    def init_display(self):\n        self.screen = pygame.display.set_mode((GAME_WIDTH, GAME_HEIGHT))\n        self.font = pygame.font.SysFont(\"Monaco\", 32, bold=True)\n    def draw_block(self, color, x, y):\n        self.screen.fill(color, (x, y, BLOCK_SIZE - 1, BLOCK_SIZE - 1))",
+        "detail": "python-tetris.game_view",
+        "documentation": {}
+    },
+    {
+        "label": "SIDEBAR_CONTEXT_Y",
+        "kind": 5,
+        "importPath": "python-tetris.game_view",
+        "description": "python-tetris.game_view",
+        "peekOfCode": "SIDEBAR_CONTEXT_Y = BLOCK_SIZE\nGAME_WIDTH = GRID_WIDTH + SIDEBAR_BORDER + SIDEBAR_WIDTH\nGAME_HEIGHT = GRID_HEIGHT\nclass GameView:\n    def init_display(self):\n        self.screen = pygame.display.set_mode((GAME_WIDTH, GAME_HEIGHT))\n        self.font = pygame.font.SysFont(\"Monaco\", 32, bold=True)\n    def draw_block(self, color, x, y):\n        self.screen.fill(color, (x, y, BLOCK_SIZE - 1, BLOCK_SIZE - 1))\n    def draw_shape(self, shape, shape_id, x, y):",
+        "detail": "python-tetris.game_view",
+        "documentation": {}
+    },
+    {
+        "label": "GAME_WIDTH",
+        "kind": 5,
+        "importPath": "python-tetris.game_view",
+        "description": "python-tetris.game_view",
+        "peekOfCode": "GAME_WIDTH = GRID_WIDTH + SIDEBAR_BORDER + SIDEBAR_WIDTH\nGAME_HEIGHT = GRID_HEIGHT\nclass GameView:\n    def init_display(self):\n        self.screen = pygame.display.set_mode((GAME_WIDTH, GAME_HEIGHT))\n        self.font = pygame.font.SysFont(\"Monaco\", 32, bold=True)\n    def draw_block(self, color, x, y):\n        self.screen.fill(color, (x, y, BLOCK_SIZE - 1, BLOCK_SIZE - 1))\n    def draw_shape(self, shape, shape_id, x, y):\n        for i, row in enumerate(shape):",
+        "detail": "python-tetris.game_view",
+        "documentation": {}
+    },
+    {
+        "label": "GAME_HEIGHT",
+        "kind": 5,
+        "importPath": "python-tetris.game_view",
+        "description": "python-tetris.game_view",
+        "peekOfCode": "GAME_HEIGHT = GRID_HEIGHT\nclass GameView:\n    def init_display(self):\n        self.screen = pygame.display.set_mode((GAME_WIDTH, GAME_HEIGHT))\n        self.font = pygame.font.SysFont(\"Monaco\", 32, bold=True)\n    def draw_block(self, color, x, y):\n        self.screen.fill(color, (x, y, BLOCK_SIZE - 1, BLOCK_SIZE - 1))\n    def draw_shape(self, shape, shape_id, x, y):\n        for i, row in enumerate(shape):\n            for j, is_solid in enumerate(row):",
+        "detail": "python-tetris.game_view",
+        "documentation": {}
+    },
+    {
+        "label": "Gravity",
+        "kind": 6,
+        "importPath": "python-tetris.gravity",
+        "description": "python-tetris.gravity",
+        "peekOfCode": "class Gravity:\n    def __init__(self):\n        self.speed = GRAVITY_SPEED\n        self.progress = 0\n    def reset_progress(self):\n        self.progress = 0\n    def update_progress(self, dt):\n        self.speed += GRAVITY_ACCELERATION * dt\n        self.progress += self.speed * dt\n        if self.progress >= GRAVITY_THRESHOLD:",
+        "detail": "python-tetris.gravity",
+        "documentation": {}
+    },
+    {
+        "label": "Grid",
+        "kind": 6,
+        "importPath": "python-tetris.grid",
+        "description": "python-tetris.grid",
+        "peekOfCode": "class Grid:\n    def __init__(self):\n        self.matrix = [[EMPTY_BLOCK] * GRID_COLS for _ in range(GRID_ROWS)]\n    def can_fit_shape(self, shape, x, y):\n        for i, row in enumerate(shape):\n            for j, is_solid in enumerate(row):\n                if not is_solid:\n                    continue\n                grid_x, grid_y = x + j, y + i\n                # wall collision",
+        "detail": "python-tetris.grid",
+        "documentation": {}
+    },
+    {
+        "label": "EMPTY_BLOCK",
+        "kind": 5,
+        "importPath": "python-tetris.grid",
+        "description": "python-tetris.grid",
+        "peekOfCode": "EMPTY_BLOCK = -1\nclass Grid:\n    def __init__(self):\n        self.matrix = [[EMPTY_BLOCK] * GRID_COLS for _ in range(GRID_ROWS)]\n    def can_fit_shape(self, shape, x, y):\n        for i, row in enumerate(shape):\n            for j, is_solid in enumerate(row):\n                if not is_solid:\n                    continue\n                grid_x, grid_y = x + j, y + i",
+        "detail": "python-tetris.grid",
+        "documentation": {}
+    },
+    {
+        "label": "game",
+        "kind": 5,
+        "importPath": "python-tetris.main",
+        "description": "python-tetris.main",
+        "peekOfCode": "game = Game()\ngame.start()",
+        "detail": "python-tetris.main",
+        "documentation": {}
+    },
+    {
+        "label": "Piece",
+        "kind": 6,
+        "importPath": "python-tetris.piece",
+        "description": "python-tetris.piece",
+        "peekOfCode": "class Piece:\n    def __init__(self, shape_id):\n        self.shape_id = shape_id\n        self.shape = SHAPES[shape_id]\n        self.x = random.randint(0, GRID_COLS - len(self.shape[0]))\n        self.y = 0\n    def move(self, move_x, move_y):\n        self.x += move_x\n        self.y += move_y\n    def rotate(self):",
+        "detail": "python-tetris.piece",
+        "documentation": {}
+    },
+    {
+        "label": "SHAPES",
+        "kind": 5,
+        "importPath": "python-tetris.shapes",
+        "description": "python-tetris.shapes",
+        "peekOfCode": "SHAPES = [\n    # I\n    [\n        [0, 0, 0, 0],\n        [1, 1, 1, 1],\n        [0, 0, 0, 0],\n        [0, 0, 0, 0]\n    ],\n    # J\n    [",
+        "detail": "python-tetris.shapes",
+        "documentation": {}
+    }
+]
